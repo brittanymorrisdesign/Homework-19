@@ -1,7 +1,7 @@
 # Homework-9
 React: Employee Directory
 
-Github Page: https://brittanymorrisdesign.github.io/Homework-19 </br>
+Github Page: https://github.com/brittanymorrisdesign/Homework-19</br>
 Live Demo: </br>
 
 
@@ -13,4 +13,9 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 
 # Technologies Used
 * Javascript
+* HTML
+* CSS
+* Bootstrap
+* React.js
+
 
