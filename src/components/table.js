@@ -5,8 +5,9 @@ import "../styles/table.css"
 const Table = () => {
     
 return (
-    <table className="table table-striped table-resposive text-center table-hover">
-<thead>
+<div class="table-responsive">
+<table className="table table-striped table-resposive text-center table-hover">
+    <thead>
     <tr>
     <th scope="col">Image</th>
     <th scope="col">Name</th>
@@ -15,10 +16,9 @@ return (
     <th scope="col">Date of Birth</th>
     </tr>
 </thead>
-
-<UserTableResults />
-
-</table>
+      <UserTableResults />
+    </table>
+  </div>
 );
 }
 
