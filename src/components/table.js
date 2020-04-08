@@ -1,10 +1,11 @@
 import React from "react";
 import UserTableResults from "./userTableResults"
+import "../styles/table.css"
 
 const Table = () => {
     
 return (
-    <table className="table table-striped text-center table-hover">
+    <table className="table table-striped table-resposive text-center table-hover">
 <thead>
     <tr>
     <th scope="col">Image</th>

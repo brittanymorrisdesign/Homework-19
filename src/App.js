@@ -1,11 +1,9 @@
-
 import React, { useEffect, useState} from "react";
 import axios from "axios";
 import DataAreaContext from "./utils/dataAreaContext"
 import Table from "./components/table"
 import Jumbotron from "./components/jumbotron";
 import SearchBar from "./components/searchBar";
-
 
 function App() {
   const [personsState, setPersonsState] = useState([]);
