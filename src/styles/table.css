@@ -1,10 +1,12 @@
-.table-responsive{
+.table-responsive {
     height:400px;  
     overflow:scroll;
   }
    thead tr:nth-child(1) th{
       background: white;
       position: sticky;
+      border-color: white;
+      border: 10px;
       top: 0;
       z-index: 10;
     }
