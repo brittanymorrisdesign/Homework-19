@@ -9,7 +9,7 @@ function App() {
   const [personsState, setPersonsState] = useState([]);
   
       useEffect(() => {
-      axios.get(`https://randomuser.me/api/?results=20&nat=us`)
+      axios.get(`https://randomuser.me/api/?results=30&nat=us`)
           .then(res => {
           const personsArr  = res.data.results;
           setPersonsState(personsArr);
