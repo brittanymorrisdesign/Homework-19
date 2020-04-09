@@ -1,12 +1,27 @@
 .table-responsive {
-    height:400px;  
-    overflow:scroll;
+  height:400px;  
+  width:100%;
+  overflow:scroll;
+}
+
+ thead tr:nth-child(1) th{
+    background: white;
+    position: sticky;
+    border-color: white;
+    border: 10px;
+    top: 0;
+    z-index: 10;
   }
-   thead tr:nth-child(1) th{
-      background: white;
-      position: sticky;
-      border-color: white;
-      border: 10px;
-      top: 0;
-      z-index: 10;
-    }
+
+  .downArrow {
+    width: 0;
+    height: 10;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    cursor: pointer; /* Pointer/hand icon */
+    border-top: 10px solid #2CBBD8;
+    margin-top: 50px;
+    position: relative;
+    top: 16px;
+    left: 10px;
+}

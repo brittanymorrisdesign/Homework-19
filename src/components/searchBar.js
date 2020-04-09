@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
-import DataAreaContext from "../utils/dataAreaContext.js";
+import React from "react";
+//import DataAreaContext from "../utils/dataAreaContext.js";
 import "../styles/searchBar.css"
 
 const SearchBar = (props) => {
-const context = useContext(DataAreaContext)
+//const context = useContext(DataAreaContext)
 
   return (
     <form>
@@ -16,12 +16,9 @@ const context = useContext(DataAreaContext)
           name="search"
           type="text"
           className="form-control"
-          placeholder='Search by last name of Employee'
+          placeholder='Search directory for Employee'
           id="search"
         />
-        <div className="input-group-append">
-          <button onClick={props.handleFormSubmit} className="btn btn-primary" type="button" id="button-addon2">Search<i className="fas fa-search ml-2"/></button>
-        </div>
       </div>
     </div>
   </form>
