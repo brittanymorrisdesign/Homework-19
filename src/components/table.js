@@ -5,7 +5,7 @@ import "../styles/table.css"
 const Table = () => {
     
 return (
-<div class="table-responsive">
+<div className="table-responsive">
 <table className="table table-striped table-resposive text-center table-hover">
     <thead>
     <tr>
