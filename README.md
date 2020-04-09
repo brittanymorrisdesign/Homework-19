@@ -4,7 +4,7 @@ React: Employee Directory
 Github Page: https://github.com/brittanymorrisdesign/Homework-19</br>
 Live Demo: </br>
 
-![bg-showcase-3](https://user-images.githubusercontent.com/44029053/78942363-93f98b80-7a87-11ea-8ecd-0b7879fc8a9f.jpg)
+![bg-showcase-3](https://user-images.githubusercontent.com/44029053/78942452-c3a89380-7a87-11ea-9a4d-1d4dc2b8a9f6.png)
 
 # User Story
 As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
@@ -18,5 +18,3 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 * CSS
 * Bootstrap
 * React.js
-
-
