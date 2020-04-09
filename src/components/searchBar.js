@@ -3,7 +3,7 @@ import DataAreaContext from "../utils/dataAreaContext.js";
 import "../styles/searchBar.css"
 
 const SearchBar = (props) => {
- // const context = useContext(DataAreaContext)
+const context = useContext(DataAreaContext)
 
   return (
     <form>
