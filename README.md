@@ -2,7 +2,7 @@
 React: Employee Directory
 
 Github Page: https://github.com/brittanymorrisdesign/Homework-19</br>
-Live Demo: </br>
+Live Demo: https://ancient-temple-05418.herokuapp.com/</br>
 
 ![bg-showcase-3](https://user-images.githubusercontent.com/44029053/78942452-c3a89380-7a87-11ea-9a4d-1d4dc2b8a9f6.png)
 
